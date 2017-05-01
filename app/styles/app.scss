@@ -1,0 +1,12 @@
+@import '../../node_modules/materialize-sass-origin/sass/materialize.scss';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}

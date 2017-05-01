@@ -10,3 +10,59 @@
 img {
   max-width: 100%;
 }
+
+// Forresty green #283D3B
+// Burgundy #610E10
+// Dark peach #A24632
+// Tealy #197278
+// Black Grey #212227
+
+
+
+nav{
+  background-color: #212227;
+}
+
+
+.head{
+  background-color: #A24632;
+  padding: 0px;
+  max-height: 500px;
+}
+
+.head-photo > img{
+  max-height: 500px;
+  width: 100%;
+}
+
+.row .col {
+  padding: 0px;
+  margin: 0px;
+}
+
+.row{
+  margin-bottom: 0px;
+}
+
+.who-we-are{
+  background-color: #197278;
+}
+
+.about-us{
+  background-color: white;
+  margin-top: -6px;
+  font-size: 20px;
+  height: 100%;
+  padding: 80px;
+}
+
+.program-head{
+  text-align: center;
+  font-size: 20px;
+}
+
+.program-list > div{
+  text-align: center;
+  background-color: #610E10;
+  color: white;
+}

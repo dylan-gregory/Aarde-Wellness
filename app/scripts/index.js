@@ -1,8 +1,22 @@
-var $ = require('jquery');
-var Backbone = require('backbone');
+import React from 'react';
+import { render } from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import routes from './components/routes';
 
-require('./router.js');
+render(
+  <Router routes={routes} history={browserHistory} />,
+  document.getElementById('app')
+);
 
-$(function(){
-  Backbone.history.start();
-});
+
+
+
+//
+// var $ = require('jquery');
+// var Backbone = require('backbone');
+//
+// require('./router.js');
+//
+// $(function(){
+//   Backbone.history.start();
+// });

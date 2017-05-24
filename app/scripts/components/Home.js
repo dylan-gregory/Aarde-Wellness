@@ -1,12 +1,8 @@
-var React = require('react');
-var $ = window.$ = window.jQuery = require('jquery');
+import React from 'react';
 
-require('materialize-sass-origin/js/bin/materialize.js');
-require('materialize-sass-origin/js/parallax.js');
-
-class MainContainer extends React.Component{
+export default React.createClass({
   render(){
-    return (
+    return(
       <div>
         <div className="navbar-fixed">
           <nav>
@@ -39,7 +35,7 @@ class MainContainer extends React.Component{
           <div className="row program-head">
             We believe God gave us an abundance of health through the world he created. We want to help people discover true wellness, true vitality, true life by embracing the beauty of the earth. Be grounded. Be happy. Be healthy.
 
-            Here's how we can help
+            <h2>"Here's how we can help"</h2>
           </div>
 
           <div className="row program-list">
@@ -60,10 +56,6 @@ class MainContainer extends React.Component{
 
         </div>
       </div>
-    );
+    )
   }
-}
-
-module.exports = {
-  MainContainer
-};
+});
